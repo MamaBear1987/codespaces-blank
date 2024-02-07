@@ -1,50 +1,58 @@
-body{
-    background-image: url(https://th.bing.com/th/id/R.9918b4c5b9c394d318a48a682061e478?rik=soKNt8dWVbUIYg&pid=ImgRaw&r=0;);
-    background-position:center;
+body {
+        background-image: url(https://th.bing.com/th/id/R.9918b4c5b9c394d318a48a682061e478?rik=soKNt8dWVbUIYg&pid=ImgRaw&r=0;);
+        background-position:center;
 }
 
-fieldset{
-    border-color: rgb(255, 3, 171);
-    border-width: 1em;
-    background-color:rgb(250, 180, 227, 0.4);
+fieldset {
+        border-color: rgb(255, 3, 171);
+        border-width: 1em;
+        background-color:rgb(250, 180, 227, 0.4);
 }
-header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 3, 171);
-    text-shadow:0px 4px black;
-    font-size: 40px;
-    text-align:center;
+
+header {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 3, 171);
+        text-shadow:0px 10px black;
+        font-size: 50px;
+        text-align:center;
+         font-style:bold;
+
 }
- h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 3, 171);
-    text-shadow:0px 4px black;
-    font-size: 30px;
-    text-align:center;
- }
-  h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 3, 171);
-    text-shadow:0px 4px black;
-    font-size: 30px;
-    text-align:center;
+
+h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 3, 171);
+        text-shadow:0px 4px black;
+        font-size: 30px;
+        text-align:center;
+        font-style:inherit;
  }
 
- iframe{
-    min-height:200px;
-    float:right;
-    border-image-outset:2px ;
-    border-radius: 500px;
-    border-color:rgb(255, 3, 171);
-    border-style: double;
-    border-width: 20px;
+ h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 3, 171);
+        text-shadow:0px 4px black;
+        font-size: 30px;
+        text-align:center;
  }
- P{
-    font-size:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:black;
-    text-shadow:0px 1px rgb(255, 3, 171);
+
+iframe {
+        min-height:200px;
+        float:right;
+        border-image-outset:2px ;
+        border-radius: 500px;
+        border-color:rgb(255, 3, 171);
+        border-style: double;
+        border-width: 20px;
  }
+
+ P {
+        font-size:20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(255, 3, 171);
+        text-shadow:0px 3px black;
+ }
+
  p:first-of-type::first-letter {
         float:left;
         font-size:4em;
@@ -52,42 +60,50 @@ header{
         margin-right:0.1em;
         padding-right:0.1em;
         padding-bottom:0.2em; 
-        color:black;
-        text-shadow:0px 1px rgb(255, 3, 171);
+        color:rgb(255, 3, 171);
+        text-shadow:2px 4px black;
  }
 
- .two:first-letter{
-    float:left;
-        font-size:4em;
-        line-height:0.8em;
-        margin-right:0.1em;
-        padding-right:0.1em;
-        padding-bottom:0.2em; 
-        color:black;
-        text-shadow:0px 1px rgb(255, 3, 171);
-     }
-
-     .three::first-letter{
+    .two:first-letter{
         float:left;
         font-size:4em;
         line-height:0.8em;
         margin-right:0.1em;
         padding-right:0.1em;
         padding-bottom:0.2em; 
-        color:black;
-        text-shadow:0px 1px rgb(255, 3, 171);
+        color:rgb(255, 3, 171);
+        text-shadow:2px 4px black;
      }
 
-     h3{
+    .three::first-letter{
+        float:left;
+        font-size:4em;
+        line-height:0.8em;
+        margin-right:0.1em;
+        padding-right:0.1em;
+        padding-bottom:0.2em; 
+        color:rgb(255, 3, 171);
+        text-shadow:2px 4px black;
+     }
+
+footer{
+        position:relative;
+        left:0px;
+        bottom:0px;
+        height:30px;
+        width:100%;
+      }
+
+h3 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(255, 3, 171);
         text-shadow:0px 4px black;
         font-size: 30px;
         text-align:center;
-         }
+   }
          
-         .page{
-            background-color:rgb(250, 180, 227, 0.1);
+    .page{
+            background-color:rgb(250, 180, 227, 0.2);
          }
 
 
